@@ -23,7 +23,7 @@ public class PrimoClient {
         try{
             Socket s=new Socket ("169.254.236.85", 2400);
             
-            s.getOutputStream().write(90);
+            s.getOutputStream().write(80);
             s.close();
             
         } catch (IOException ex){
